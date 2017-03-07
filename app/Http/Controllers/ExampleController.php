@@ -13,6 +13,10 @@ class ExampleController extends Controller
     {
         //
     }
+    public function test() {
+	    echo 1;
+	return redirect()->route('profile',2);
+    }
 
     //
 }
