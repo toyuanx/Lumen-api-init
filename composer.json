@@ -9,8 +9,10 @@
 	"laravel/lumen-framework": "5.4.*",
 	"vlucas/phpdotenv": "~2.2",
 	"dingo/api": "1.0.x@dev",
-	"tymon/jwt-auth": "^0.5.10",
-        "laravelista/lumen-vendor-publish": "^2.0"
+	"tymon/jwt-auth": "1.0.*@dev",
+	"predis/predis": "^1.1",
+	"illuminate/redis": "^5.4",
+	"rinvex/repository": "dev-develop"
     },
     "require-dev": {
 	"fzaninotto/faker": "~1.4",
